@@ -98,3 +98,11 @@ Scores: Usability 5, Functionality 5, Performance 5
 **Note:** Requires language changes
 
 See [details](codeable.md)
+
+### Const Functions for Reflection
+
+This is more of an implementation idea which could implement several of the
+above proposals. It is a form of meta-programming based on const functions
+which can reflect on the program arbitrarily with no direct cost to code size.
+
+See [const_functions](const_functions.md)
