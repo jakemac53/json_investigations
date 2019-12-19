@@ -11,7 +11,7 @@ configuration such as field name mapping etc.
 ## Example Usage:
 
 ```dart
-var user = jsonAutoDecode<MyCustomClass<WithAGenericType>>(someJson);
+var myCustomClass = jsonAutoDecode<MyCustomClass<WithAGenericType>>(someJson);
 var deeplyTypedCollection = jsonAutoDecode<Map<String, List<int>>>(someJson);
 ```
 
