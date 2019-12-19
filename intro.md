@@ -58,6 +58,8 @@ I have evaluated each of these approaches in terms of 3 primary criteria:
 **usability**, **functionality**, and **performance**. These are evaluated on
 a 5 point scale.
 
+The experiments are not listed in any particular order.
+
 ### jsonAutoDecode<T>(String json, {Map<Type, Config> config})
 
 Scores: Usability 4, Functionality 4, Performance 5
@@ -88,3 +90,11 @@ See [details](reflection.md).
 Scores: Usability 3*, Functionality 5, Performance 4
 
 See [details](json_schema.md).
+
+### Codeable
+
+Scores: Usability 5, Functionality 5, Performance 5
+
+**Note:** Requires language changes
+
+See [details](codeable.md)

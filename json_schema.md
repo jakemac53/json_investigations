@@ -10,6 +10,10 @@ with the desired type intially, eliminating the need for deep casting.
 It also enables custom types to be deserialized directly as the json object is
 parsed, eliminating the need for intermediate Maps/Lists.
 
+Ultimately, this approach influenced heavily the
+[auto_reviver](auto_reviver.md) design, which uses a lot of the same principles
+but does not use the visitor pattern.
+
 ## Approach
 
 This approach requires re-writing the `jsonDecode` method entirely into a

@@ -158,14 +158,10 @@ This feature gives a lot of immediate and potential future performance
 improvements compared to existing solutions.
 
 It also enables custom user-created `Decoder` implementations which can easily
-beat the existing `jsonDecode` performance.
+beat the existing `jsonDecode` performance on the web.
 
 - It can easily support lazy collections such as `Iterable` which can do lazy
   decoding, as well as optional `LazyMap` and `LazyList` implementations which
   lazily decode on access.
 - The `Decoder` interface can be implemented much more cheaply on the web than
   the `Map` interface, using native JS objects and JS interop calls.
-
-## Prototype
-
-I don't have a public prototype of this available at this time.
